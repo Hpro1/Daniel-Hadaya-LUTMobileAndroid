@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Software Development Mobile</string>
+    <string name="enter_a_number">Enter a number</string>
+    <string name="add">CALCULATE</string>
+    <string name="enter_a_number2">Enter a number</string>
+    <string name="result">Result</string>
+    <string name="divide">Divide</string>
+    <string name="multiply">Multiply</string>
+    <string name="your_selection">Your selection:</string>
+    <string name="home">Home</string>
+    <string name="subtract">Subtract</string>
+    <string name="add2">Add</string>
+</resources>
