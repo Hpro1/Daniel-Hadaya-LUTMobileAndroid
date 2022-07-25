@@ -31,12 +31,9 @@ public class MainActivity extends AppCompatActivity {
         Button mainButton = (Button) findViewById(R.id.homeButton);
         addButton.setOnClickListener(this::onClick);
 
-        mainButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), SecondActivity.class);
-                startActivity(startIntent);
-            }
+        mainButton.setOnClickListener(v -> {
+            Intent startIntent = new Intent(getApplicationContext(), SecondActivity.class);
+            startActivity(startIntent);
         });
     }
 
