@@ -11,13 +11,13 @@
     <string name="subtract">Subtract</string>
     <string name="add2">Add</string>
     <string name="shop">Shop</string>
-    
+
     <string-array name="items">
         <item>Modulus</item>
         <item>Exponent</item>
         <item>Square root</item>
     </string-array>
-    
+
     <string-array name="prices">
         <item>0.99€</item>
         <item>1.50€</item>

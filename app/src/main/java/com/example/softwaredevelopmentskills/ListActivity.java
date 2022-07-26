@@ -1,7 +1,10 @@
 package com.example.softwaredevelopmentskills;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,5 +30,15 @@ public class ListActivity extends AppCompatActivity {
         ItemAdapter itemAdapter = new ItemAdapter(this, items, prices, descriptions);
         myListView.setAdapter(itemAdapter);
 
+        myListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent showDetailActivity = new Intent(getApplicationContext(), DetailActivity.class);
+                showDetailActivity.putExtra("com.example.softwaredevelopmentskills.ITEM_INDEX", position);
+                startActivity(showDetailActivity);
+            }
+        });
     }
 }
