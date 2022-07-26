@@ -10,4 +10,24 @@
     <string name="home">Home</string>
     <string name="subtract">Subtract</string>
     <string name="add2">Add</string>
+    
+    <string-array name="items">
+        <item>Modulus</item>
+        <item>Exponent</item>
+        <item>Square root</item>
+    </string-array>
+    
+    <string-array name="prices">
+        <item>0.99€</item>
+        <item>1.50€</item>
+        <item>2.00€</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Modulus calculations made easy</item>
+        <item>Get your exponent calculations right all the time</item>
+        <item>We all hate square root, that's why we are offering it for you for a cheap price</item>
+    </string-array>
+
+
 </resources>
