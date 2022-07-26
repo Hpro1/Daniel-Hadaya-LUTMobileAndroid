@@ -10,6 +10,7 @@
     <string name="home">Home</string>
     <string name="subtract">Subtract</string>
     <string name="add2">Add</string>
+    <string name="shop">Shop</string>
     
     <string-array name="items">
         <item>Modulus</item>
@@ -26,8 +27,7 @@
     <string-array name="descriptions">
         <item>Modulus calculations made easy</item>
         <item>Get your exponent calculations right all the time</item>
-        <item>We all hate square root, that's why we are offering it for you for a cheap price</item>
+        <item>We all hate square root, that is why we are offering it for you for a cheap price</item>
     </string-array>
-
 
 </resources>

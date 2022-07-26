@@ -35,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
             Intent startIntent = new Intent(getApplicationContext(), SecondActivity.class);
             startActivity(startIntent);
         });
+
+        Button shopButton = (Button) findViewById(R.id.listButton);
+        shopButton.setOnClickListener(v -> {
+            Intent startIntent = new Intent(getApplicationContext(), ListActivity.class);
+            startActivity(startIntent);
+        });
     }
 
     public void checkButton(View v) {
