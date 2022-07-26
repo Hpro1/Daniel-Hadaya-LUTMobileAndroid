@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-public class ItemAdapter extends BaseAdapter {
+class ItemAdapter extends BaseAdapter {
 
     LayoutInflater mInflater;
     String[] items;
